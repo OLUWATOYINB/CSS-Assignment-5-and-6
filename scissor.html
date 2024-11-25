@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./scissor.css">
+  <title>Scissor</title>
+</head>
+<body>
+  <section>
+    <!-- -------------------navigation---------------- -->
+    <div class="nav-header">
+      <div class="icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="50rem" height="44" viewBox="0 0 1151 44" fill="none">
+          <path d="M31.6471 10.4394C31.0613 9.85354 30.1032 9.85354 29.5173 10.4394L26.4643 13.4948C25.2134 12.6627 23.7779 12.2497 22.3365 12.2497C20.4174 12.2497 18.4737 12.9822 17.0337 14.4469L12.5336 18.9472C9.96732 21.5106 9.65099 25.4747 11.5787 28.384L8.52587 31.4394C7.94003 32.0253 7.94003 32.9745 8.52587 33.5606C8.81891 33.8536 9.20267 34 9.58643 34C9.97044 34 10.354 33.8536 10.647 33.5606L13.6998 30.5051C14.9509 31.3372 16.395 31.7502 17.8365 31.7502C19.7306 31.7502 21.6743 31.0178 23.1393 29.553L27.6307 25.053C30.197 22.4893 30.5133 18.5252 28.5854 15.616L31.6471 12.5605C32.2329 11.9747 32.2329 11.0252 31.6471 10.4394ZM26.8276 19.75C26.8276 20.9512 26.3589 22.0821 25.5096 22.9317L21.0182 27.4317C20.1657 28.2813 19.013 28.75 17.8365 28.75C17.1568 28.75 16.5064 28.5832 15.9088 28.2988L18.1223 26.0605C18.7082 25.4747 18.7082 24.5255 18.1223 23.9394C17.5612 23.3536 16.612 23.3536 16.0261 23.9394L13.7879 26.1777C13.5009 25.5829 13.3367 24.9325 13.3367 24.25C13.3367 23.0488 13.8054 21.9179 14.655 21.0683L19.1301 16.5683C19.9797 15.7187 21.1353 15.25 22.3365 15.25C23.0162 15.25 23.6635 15.4168 24.2613 15.7012L21.9791 17.9862C21.3933 18.572 21.3933 19.5212 21.9791 20.1073C22.2722 20.4004 22.6557 20.5468 23.0397 20.5468C23.4206 20.5468 23.8043 20.4004 24.0971 20.1073L26.3767 17.8223C26.6635 18.4168 26.8276 19.0674 26.8276 19.75Z" fill="#0065FE"/>
+          <path d="M40.0865 10V34" stroke="#0065FE" stroke-width="2" stroke-linecap="round"/>
+          <path d="M55.3825 29.336C52.0465 29.336 49.7185 27.752 48.7825 25.184L51.6145 23.528C52.2625 25.232 53.5585 26.096 55.4785 26.096C57.3265 26.096 58.1665 25.352 58.1665 24.32C58.1665 23.72 57.9025 23.264 57.3745 22.952C56.8465 22.616 55.9105 22.256 54.5425 21.872C53.0305 21.416 52.1185 21.056 51.0625 20.312C50.0305 19.544 49.4785 18.392 49.4785 16.856C49.4785 15.344 50.0065 14.12 51.0865 13.232C52.1665 12.32 53.4865 11.864 54.9985 11.864C57.7105 11.864 59.8465 13.256 60.9985 15.632L58.2145 17.24C57.5425 15.8 56.4625 15.08 54.9985 15.08C53.6305 15.08 52.7905 15.776 52.7905 16.76C52.7905 17.288 53.0065 17.72 53.4385 18.056C53.8945 18.368 54.7345 18.728 55.9825 19.112L57.1345 19.496C57.3985 19.568 57.7585 19.712 58.2145 19.904C58.6705 20.072 59.0305 20.24 59.2705 20.408C59.7745 20.72 60.5425 21.32 60.8545 21.896C61.2145 22.472 61.4785 23.312 61.4785 24.272C61.4785 25.832 60.9025 27.056 59.7745 27.968C58.6465 28.88 57.1825 29.336 55.3825 29.336ZM71.4895 29.336C68.9695 29.336 66.8815 28.496 65.2255 26.816C63.5695 25.136 62.7535 23.072 62.7535 20.6C62.7535 18.128 63.5695 16.04 65.2255 14.384C66.8815 12.704 68.9695 11.864 71.4895 11.864C74.5375 11.864 77.2735 13.4 78.7135 15.824L75.8575 17.48C75.0175 15.968 73.4095 15.08 71.4895 15.08C69.8575 15.08 68.5375 15.584 67.5295 16.616C66.5455 17.648 66.0415 18.968 66.0415 20.6C66.0415 22.208 66.5455 23.528 67.5295 24.56C68.5375 25.592 69.8575 26.096 71.4895 26.096C73.4095 26.096 75.0655 25.184 75.8575 23.72L78.7135 25.376C77.2735 27.8 74.5615 29.336 71.4895 29.336ZM80.748 29V12.2H84.06V29H80.748ZM92.6481 29.336C89.3121 29.336 86.9841 27.752 86.0481 25.184L88.8801 23.528C89.5281 25.232 90.8241 26.096 92.7441 26.096C94.5921 26.096 95.4321 25.352 95.4321 24.32C95.4321 23.72 95.1681 23.264 94.6401 22.952C94.1121 22.616 93.1761 22.256 91.8081 21.872C90.2961 21.416 89.3841 21.056 88.3281 20.312C87.2961 19.544 86.7441 18.392 86.7441 16.856C86.7441 15.344 87.2721 14.12 88.3521 13.232C89.4321 12.32 90.7521 11.864 92.2641 11.864C94.9761 11.864 97.1121 13.256 98.2641 15.632L95.4801 17.24C94.8081 15.8 93.7281 15.08 92.2641 15.08C90.8961 15.08 90.0561 15.776 90.0561 16.76C90.0561 17.288 90.2721 17.72 90.7041 18.056C91.1601 18.368 92.0001 18.728 93.2481 19.112L94.4001 19.496C94.6641 19.568 95.0241 19.712 95.4801 19.904C95.9361 20.072 96.2961 20.24 96.5361 20.408C97.0401 20.72 97.8081 21.32 98.1201 21.896C98.4801 22.472 98.7441 23.312 98.7441 24.272C98.7441 25.832 98.1681 27.056 97.0401 27.968C95.9121 28.88 94.4481 29.336 92.6481 29.336ZM106.125 29.336C102.789 29.336 100.461 27.752 99.5247 25.184L102.357 23.528C103.005 25.232 104.301 26.096 106.221 26.096C108.069 26.096 108.909 25.352 108.909 24.32C108.909 23.72 108.645 23.264 108.117 22.952C107.589 22.616 106.653 22.256 105.285 21.872C103.773 21.416 102.861 21.056 101.805 20.312C100.773 19.544 100.221 18.392 100.221 16.856C100.221 15.344 100.749 14.12 101.829 13.232C102.909 12.32 104.229 11.864 105.741 11.864C108.453 11.864 110.589 13.256 111.741 15.632L108.957 17.24C108.285 15.8 107.205 15.08 105.741 15.08C104.373 15.08 103.533 15.776 103.533 16.76C103.533 17.288 103.749 17.72 104.181 18.056C104.637 18.368 105.477 18.728 106.725 19.112L107.877 19.496C108.141 19.568 108.501 19.712 108.957 19.904C109.413 20.072 109.773 20.24 110.013 20.408C110.517 20.72 111.285 21.32 111.597 21.896C111.957 22.472 112.221 23.312 112.221 24.272C112.221 25.832 111.645 27.056 110.517 27.968C109.389 28.88 107.925 29.336 106.125 29.336ZM128.4 26.816C126.696 28.496 124.632 29.336 122.208 29.336C119.784 29.336 117.72 28.496 116.016 26.816C114.336 25.112 113.496 23.048 113.496 20.6C113.496 18.152 114.336 16.088 116.016 14.408C117.72 12.704 119.784 11.864 122.208 11.864C124.632 11.864 126.696 12.704 128.4 14.408C130.104 16.088 130.944 18.152 130.944 20.6C130.944 23.048 130.104 25.112 128.4 26.816ZM118.344 24.56C119.376 25.592 120.672 26.096 122.208 26.096C123.744 26.096 125.04 25.592 126.072 24.56C127.104 23.528 127.632 22.208 127.632 20.6C127.632 18.992 127.104 17.672 126.072 16.64C125.04 15.608 123.744 15.08 122.208 15.08C120.672 15.08 119.376 15.608 118.344 16.64C117.312 17.672 116.784 18.992 116.784 20.6C116.784 22.208 117.312 23.528 118.344 24.56ZM146.063 29H142.487L139.103 23.168H136.583V29H133.271V12.2H139.991C141.551 12.2 142.871 12.752 143.951 13.832C145.031 14.912 145.583 16.232 145.583 17.768C145.583 19.856 144.287 21.776 142.343 22.664L146.063 29ZM139.991 15.296H136.583V20.264H139.991C141.239 20.264 142.271 19.136 142.271 17.768C142.271 16.4 141.239 15.296 139.991 15.296Z" fill="#0065FE"/>
+          </svg>
+      </div>
+      <div class="sub-header">
+        <nav>
+          <ul>
+            <li><a href="#" class="myurl">My URLs</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Analytics</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="button-header">
+       <button class="blue-btn">login</button>
+       <button class="free-btn">Try for free</button>
+      </div>
+    </div>
+<!-- ----------------section 1----------------- -->
+ <div class="intro">
+  <h2>Optimize Your online Experience with our</h2>
+  <h3>Advanced <span style="color: rgb(0, 55, 255);">URL Shortening</span> solution.</h3>
+  <p>Personalise your shortened URLs to align with your brand identity. Utilize custom slugs,<br>
+   branded links, and domain customization options to reinforce your brand presence and <br>
+  <span style="margin-inline-start: 12rem;">enhance user engagement.</span></p>
+  <button class="signup-btn">sign up</button>
+  <button class="learn-btn">learn more</button>
+ </div>
+
+ <!-- --------------------section 2---------------- -->
+  <div class="chain-card">
+      <svg xmlns="http://www.w3.org/2000/svg" width="384" height="80" viewBox="0 0 384 80"  class="chain" fill="none">
+        <path d="M50 23.3333L60 23.3333C62.1887 23.3333 64.356 23.7643 66.3781 24.6019C68.4002 25.4395 70.2375 26.6672 71.7851 28.2148C73.3328 29.7624 74.5604 31.5998 75.398 33.6219C76.2356 35.644 76.6667 37.8112 76.6667 39.9999C76.6667 42.1886 76.2356 44.3559 75.398 46.378C74.5604 48.4001 73.3328 50.2374 71.7851 51.785C70.2375 53.3327 68.4002 54.5603 66.3781 55.3979C64.356 56.2355 62.1887 56.6666 60 56.6666H50M30 56.6666H20C17.8113 56.6666 15.644 56.2355 13.6219 55.3979C11.5998 54.5603 9.76253 53.3327 8.21488 51.785C5.08928 48.6594 3.33333 44.4202 3.33333 39.9999C3.33333 35.5796 5.08928 31.3404 8.21488 28.2148C11.3405 25.0892 15.5797 23.3333 20 23.3333H30" stroke="#141414" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M26.6667 40H53.3333" stroke="#141414" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M122 23.3333L132 23.3333C134.189 23.3333 136.356 23.7643 138.378 24.6019C140.4 25.4395 142.237 26.6672 143.785 28.2148C145.333 29.7624 146.56 31.5998 147.398 33.6219C148.236 35.644 148.667 37.8112 148.667 39.9999C148.667 42.1886 148.236 44.3559 147.398 46.378C146.56 48.4001 145.333 50.2374 143.785 51.785C142.237 53.3327 140.4 54.5603 138.378 55.3979C136.356 56.2355 134.189 56.6666 132 56.6666H122M102 56.6666H92C89.8113 56.6666 87.644 56.2355 85.6219 55.3979C83.5998 54.5603 81.7625 53.3327 80.2149 51.785C77.0893 48.6594 75.3333 44.4202 75.3333 39.9999C75.3333 35.5796 77.0893 31.3404 80.2149 28.2148C83.3405 25.0892 87.5797 23.3333 92 23.3333H102" stroke="#141414" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M98.6667 40H125.333" stroke="#141414" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M194 23.3333L204 23.3333C206.189 23.3333 208.356 23.7643 210.378 24.6019C212.4 25.4395 214.237 26.6672 215.785 28.2148C217.333 29.7624 218.56 31.5998 219.398 33.6219C220.236 35.644 220.667 37.8112 220.667 39.9999C220.667 42.1886 220.236 44.3559 219.398 46.378C218.56 48.4001 217.333 50.2374 215.785 51.785C214.237 53.3327 212.4 54.5603 210.378 55.3979C208.356 56.2355 206.189 56.6666 204 56.6666H194M174 56.6666H164C161.811 56.6666 159.644 56.2355 157.622 55.3979C155.6 54.5603 153.763 53.3327 152.215 51.785C149.089 48.6594 147.333 44.4202 147.333 39.9999C147.333 35.5796 149.089 31.3404 152.215 28.2148C155.34 25.0892 159.58 23.3333 164 23.3333H174" stroke="#141414" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M170.667 40H197.333" stroke="#141414" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M244 39C243.448 39 243 39.4477 243 40C243 40.5523 243.448 41 244 41V39ZM284 40L274 34.2265V45.7735L284 40ZM244 41H275V39H244V41Z" fill="#005AE2"/>
+        <path d="M354 23.3333L364 23.3333C366.189 23.3333 368.356 23.7643 370.378 24.6019C372.4 25.4395 374.237 26.6672 375.785 28.2148C377.333 29.7624 378.56 31.5998 379.398 33.6219C380.236 35.644 380.667 37.8112 380.667 39.9999C380.667 42.1886 380.236 44.3559 379.398 46.378C378.56 48.4001 377.333 50.2374 375.785 51.785C374.237 53.3327 372.4 54.5603 370.378 55.3979C368.356 56.2355 366.189 56.6666 364 56.6666H354M334 56.6666H324C321.811 56.6666 319.644 56.2355 317.622 55.3979C315.6 54.5603 313.763 53.3327 312.215 51.785C309.089 48.6594 307.333 44.4202 307.333 39.9999C307.333 35.5796 309.089 31.3404 312.215 28.2148C315.34 25.0892 319.58 23.3333 324 23.3333H334" stroke="#141414" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M330.667 40H357.333" stroke="#141414" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+          
+    <p class="description">
+      Seamlessly transform your long URLs into <strong>concise</strong>
+      <p class="description2">and <strong>shareable</strong> links with just a few clicks.</p> 
+  </div>
+  
+
+  <!-- ----------------------------section 3------------------------------ -->
+  <div>
+    <svg xmlns="http://www.w3.org/2000/svg" width="1440" height="93"  class="eclipse" viewBox="0 0 1440 93" fill="none">
+      <path d="M201.516 9.70664C217.021 3.29808 233.634 0 250.411 0H1186.9C1203.48 0 1219.89 3.21974 1235.24 9.48037L1440 93H0L201.516 9.70664Z" fill="#F8F7F7"/>
+      <g filter="url(#filter0_d_1_136)">
+      <ellipse cx="734" cy="44.5" rx="478" ry="24.5" fill="url(#paint0_linear_1_136)" fill-opacity="0.7" shape-rendering="crispEdges"/>
+      </g>
+      <defs>
+      <filter id="filter0_d_1_136" x="252" y="20" width="964" height="57" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="4"/>
+      <feGaussianBlur stdDeviation="2"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.0705882 0 0 0 0 0.141176 0 0 0 0 0.34902 0 0 0 0.35 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_136"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_136" result="shape"/>
+      </filter>
+      <linearGradient id="paint0_linear_1_136" x1="734" y1="20" x2="734" y2="69" gradientUnits="userSpaceOnUse">
+      <stop offset="0.106755" stop-color="#E2E9F0"/>
+      <stop offset="0.440102" stop-color="#DCE4EB"/>
+      <stop offset="1" stop-color="#E2E9F0" stop-opacity="0"/>
+      </linearGradient>
+      </defs>
+      </svg>
+  </div>
+  
+   <div class="container-3">
+    <div>
+      <h2>One Stop. <br>
+        Four <span style="color: rgb(0, 55, 255);">possiblities</span>.</h2>
+    </div>
+    <div class="subcontainer-3">
+      <div>
+        <h3>3M</h3>
+        <P>Active users</P>
+      </div>
+    <div>
+      <h3>60M</h3>
+      <P>Links and QR codes created</P>
+    </div>
+    <div>
+      <h3>1 Billion</h3>
+      <p>Clicked and Scanned connections</p>
+    </div>
+    <div>
+      <h3>300K</h3>
+      <P>App integrations</P>
+    </div>
+    </div>
+   </div>
+
+   <!-- -----------------section 4------------------- -->
+    <div class="container-4">
+      <div class="choose">
+        <h2>Why choose Scissors</h2>
+        <p>Scissors is the hub of everything that has to do
+          with your link management. We shorten your URLs, 
+        allow you creating custom ones for your personal, 
+        business, event uasge. Our swift QR code 
+      creating management and usage tracking with
+    advance analytics for all of these is second to
+    none.</p>
+      </div>
+      <div class="subcontainer-4">
+      <div>
+        <img src="" alt="">
+        <h3>URL shortening</h3>
+        <p>Scissor allows you to shorten URLs of your business, events. 
+          Shorten your URL at scale, URL direct</p>
+      </div>
+      <div>
+        <img src="" alt="">
+        <h3>Custom URLs</h3>
+        <p>With scissor, you can create custom URLs,
+          with the length you want! A solution for socials and businesses
+        </p>
+      </div>
+      <div>
+        <img src="" alt="">
+        <h3>QR Codes</h3>
+        <p>Generate QR code to your business, events.
+          Bring your audience and customers to your doorstep with this scan and go solution.
+        </p>
+      </div>
+      <div>
+        <img src="" alt="">
+        <h3>Data Analytics</h3>
+        <p>Receive data on the usage of either your shortened URL, 
+          custom URLs or generated QR codes. 
+          Embedded to minitor progress.
+        </p>
+      </div>
+    </div>
+    </div>
+
+    <!-- --------------------section 5------------------ -->
+     <div class="container-5">
+      <h3>A price perfect for your needs</h3>
+      <p>From catering for your personal, business, events, social needs, 
+        you can be </p>
+        <p>rest assured we have you in mind in our pricing</p>
+     </div>
+  
+     <!-- -------------------section 6----------------- -->
+      <div class="container-6">
+        <div class="basic">
+          <p>Basic</p>
+          <h3>Free</h3>
+          <p>Free plan for all users</p>
+          <ul>
+            <li>Unlimited URL Shortening</li>
+            <li>Basic Link Analytics</li>
+            <li>Customizable Short Links</li>
+            <li>Standard Support</li>
+            <li>Ad-supported</li>
+          </ul>
+        </div>
+        <div class="ideal">
+          <p>Professional</p>
+          <h3>$15/month</h3>
+          <p>Ideal for business creators</p>
+          <ul>
+            <li>Enhanced Link Analytics</li>
+            <li>Custom Branded Domains</li>
+            <li>Advanced Link Customization</li>
+            <li>Priority Support</li>
+            <li>Ad-free Experience</li>
+          </ul>
+        </div>
+        <div class="share">
+          <h5>Teams</h5>
+          <h3>$25/month</h3>
+          <h5>Share with up to 10 users</h5>
+          <ul>
+            <li>Team Collaboration</li>
+            <li>User Roles and permissions</li>
+            <li>Enhanced Security</li>
+            <li>API Access</li>
+            <li>Dedicated Account Manager</li>
+          </ul>
+        </div>
+        <div class="customselect-btn">
+          <button class="custom-btn">Get custom pricing</button>
+          <button class="select-btn">Select pricing</button>
+        </div>
+      </div>
+
+      <!-- ----------------------------section 7----------------- -->
+       <div>
+        <form>
+          <input type="text" placeholder="place URL here...">
+          <input type="text" placeholder="choose Domain">
+          <input type="text" placeholder="choose Domain">
+          <input type="text" placeholder="Type Alias here">
+          <button>Trim URL</button>
+          <P>By clicking TrimURL, I agree to the <span>Terms of Service, 
+            Privacy Policy </span> and Use of Cookies. </P>
+        </form>
+       </div>
+
+       <!-- ----------------------------section 8---------------- -->
+        <div>
+          <h3>FAQs</h3>
+          <details>
+            <summary>How does URL shortning works?</summary>
+            <p>URL shortening works by taking a long URL and creating a shorter, 
+              condensed version thst redurects to the original URL.
+               When a user clicks on the shortened link, 
+            they are redirected to the intended estination</p>
+          </details>
+          <details>
+            <summary>Is it neccessary to create an account to use the URL shortening service?</summary>
+          </details>
+          <details>
+            <summary>Are the shortened links permanent? Will they expire?</summary>
+          </details>
+          <details>
+            <summary>Are there any limitations on the number of URLs I can shorten?</summary>
+          </details>
+          <details>
+            <summary>Can I customize the shortened URLs to reflect my brand or content?</summary>
+          </details>
+          <details>
+            <summary>Can I track the performance of my shoortened URLs?</summary>
+          </details>
+          <details>
+            <summary>How secure is the URL shortening service? Are the shorteened links protected against spam or malicious activity?</summary>
+          </details>
+          <details>
+            <summary>What is a QR code and what can it do?</summary>
+          </details>
+          <details>
+            <summary>Is there an API available for the URL integrating the URL shortening service into my own applications or websites?</summary>
+          </details>
+           
+           
+           
+           
+         
+
+        </div>
+        <!-- -----------------------------section 9----------------------- -->
+         <div>
+          <h3>Revolutionizing Link Optimization</h3>
+          <button>Get Started</button>
+         </div>
+         <!-- ----------------------------footer-------------------- -->
+          <footer class="footer">
+            <div>Social media icons</div>
+            <div class="sub-footer">
+              <div>
+                <h6>Why Scissors</h6>
+                <li>Scissor 101</li>
+                <li>Integrations & API</li>
+                <li>Pricing</li>
+              </div>
+              <div>
+                <h6>Solutions</h6>
+                <li>Social Media</li>
+                <li>Digital Marketing</li>
+                <li>Customer Service</li>
+                <li>For Developers</li>
+              </div>
+              <div>
+                <h6>Products</h6>
+                <li>Link Mangement</li>
+                <li>QR codes</li>
+                <li>Link-in-bio</li>
+                <li>For Developers</li>
+              </div>
+              <div>
+                <h6>Company</h6>
+                <li>About Scissor</li>
+                <li>Careers</li>
+                <li>Partners</li>
+                <li>Press</li> 
+                <li>Contact</li> 
+                <li>Reviews</li> 
+              </div>
+              <div>
+                <h6>Resources</h6>
+                <li>Blog</li>
+                <li>Resource Library</li>
+                <li>Developers</li>
+                <li>App Connectors</li> 
+                <li>Support</li> 
+                <li>Trust Center</li> 
+                <li>Browser Extension</li> 
+                <li>Mobile App</li> 
+              </div>
+
+              <div>
+                <h6>Features</h6>
+                <li>Branded Links</li>
+                <li>Mobile Links</li>
+                <li>Campaign</li>
+                <li>Mangement &</li> 
+                <li>Analytics</li> 
+                <li>QR Code generation</li>  
+              </div>
+
+              <div>
+                <h6>Legal</h6>
+                <li>Privacy Policy</li>
+                <li>Cookie Policy</li>
+                <li>Terms of Service</li>
+                <li>Acceptable Use Policy</li> 
+                <li>Code of Conduct</li> 
+              </div>
+            </div>
+          </footer>
+
+  </section>
+</body>
+</html>
